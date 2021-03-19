@@ -1,6 +1,7 @@
 import React from "react";
 
 import ThoughtList from "../components/ThoughtList";
+import ThoughtForm from "../components/ThoughtForm"
 import FriendList from "../components/FriendList";
 
 import { Redirect, useParams } from "react-router-dom";
@@ -79,6 +80,7 @@ const Profile = () => {
           />
         </div>
       </div>
+      <div className="mb-3">{!userParam && <ThoughtForm />}</div>
     </div>
   );
 };
