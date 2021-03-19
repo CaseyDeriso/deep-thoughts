@@ -1,7 +1,7 @@
 import React from "react";
 
 import ReactionList from "../components/ReactionList";
-import ReactionForm from "../components/ReactForm";
+import ReactionForm from "../components/ReactionForm";
 
 import { useParams } from "react-router-dom";
 
